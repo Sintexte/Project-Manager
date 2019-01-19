@@ -1,0 +1,223 @@
+body{
+    background:  #f1f1f1;
+}
+
+.indexH{
+    background: #3a4051;
+    color: white;
+}
+#title{
+    color: white;
+    position: relative;
+    font-size: 22px;
+    top: 3px;
+    margin-left: 15px;
+}
+#title:link{
+    text-decoration: none;
+}
+.cardbtn{
+    position: absolute;
+    padding: 4px;
+    right: 20px;
+    top: 12px;
+    background: rgb(216, 216, 216);
+    color: rgb(73, 73, 73);
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 3px;
+    width: fit-content;
+}
+.cardbtn:hover{
+    background: rgb(146, 146, 146);
+    color: white;
+}
+.searchInput{
+    position: relative;
+    background: #464d62;
+    color: #6a7188;
+    border: none;
+    font-size: 15px;
+}
+#td3{
+    text-align: right;
+}
+.btnadd{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background: #464d62;
+    border: 0px;
+    color: #969eb8;
+    position: inherit;
+    margin-right: 5%;
+}
+.btnadd:hover{
+    background: rgb(53, 59, 77);
+    border: 0px solid #565c72;
+}
+.btnadd{
+    background: rgb(53, 59, 77);
+}
+
+
+.zborderbtn{
+    border-radius: 0px;
+}
+.cheader{
+    border: none;
+    background: #3a963a;
+}
+.cheader:hover{
+    border: none;
+    background: #298529;
+}
+.div-project{
+    background: #f7f7f7;
+    margin: 30px;
+}
+.div-project>.card-header{
+    font-size: 25px;
+    font-size: 18px;
+    border-bottom: 0px;
+}
+.div-project>p{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.line{
+    position: relative;
+    width: 90%;
+    left: 0;
+    height: 1px;
+    background: #e1e4e8;
+}
+.newProject{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #313131;
+}
+.h2title{
+    font-size: 25px;
+    margin: 30px 0px 15px 10px;
+}
+.bodyAddForm{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.bodyAddForm>input[type='text'],.bodyAddForm>textarea{
+    background: #f7f7f7;
+    height: 35px;
+    margin-bottom: 30px;
+    box-shadow: inset 0 2px 3px rgba(27,31,35,.075);
+    width: 70%;
+}
+
+.bodyAddForm>input:focus[type='text'],.bodyAddForm>textarea:focus{
+    box-shadow: inset 0 1px 2px rgba(27,31,35,.075);
+    background: #f7f7f7;
+}
+.bodyAddForm>h5{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+#pr-desc{
+    height: 100px;
+}
+#statusSel{
+    margin-bottom: 30px;
+    width: 70%;
+}
+#h5status{
+    margin-top: 20px;
+}
+.parametrebtn{
+    position: absolute;
+    width: 30px;
+    padding: 3px 0px 4px 0px;
+    background: rgb(216, 216, 216);
+    font-size: 17px;
+    right: 80px;
+    margin-top: 12px;
+    text-align: center;
+    border: 1px solid rgb(172, 172, 172);
+}
+.frmSec{
+    background: rgb(247, 247, 247);
+    box-shadow: inset 0 2px 3px rgba(27,31,35,.075);
+}
+.frmSec:active{
+    background: rgb(247, 247, 247);
+    box-shadow: inset 0 2px 3px rgba(27,31,35,.075);
+}
+.frmSec:focus{
+    background: rgb(247, 247, 247);
+    box-shadow: inset 0 2px 3px rgba(27,31,35,.075);
+}
+.frmSec>option{
+    background: rgb(247, 247, 247);
+}
+#status_set{
+    position: relative;
+    text-align: right;
+    bottom:41px;
+    font-size: 19px;
+}
+.navcontainer{
+    position: relative;
+    bottom:50px;
+    height: 50px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.navcontainer>div>a{
+    position: relative;
+    top: 20%;
+    text-decoration: none;
+    color: inherit;
+}
+.navcontainer>.selected{
+    background:rgb(68, 72, 87);
+    color: rgb(235, 235, 236);
+    box-shadow: 0px -4px 5px rgba(27,31,35,.075);
+}
+.project-holder{
+    font-weight: 200;
+}
+#project-contentroot{
+    background-color: rgb(66, 70, 85);
+    color: rgb(235, 235, 236);
+    bottom:25px;
+}
+#project-content{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 35px;
+}
+.prcon-title{
+    font-size: 18px;
+    margin-left: 15px;
+}
+.prcon-content{
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+.spn-tst{
+    margin-top: -7px; 
+    right: 15px;
+    position: absolute;
+    background: rgb(52, 55, 68);    
+    color: white;
+}
+.txt_b{
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgb(67, 70, 85);
+    border: 1px solid white;
+    color: white;
+    font-weight: 100;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "project-manager",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sintexte/Project-Manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sintexte/Project-Manager/issues"
+  },
+  "homepage": "https://github.com/Sintexte/Project-Manager#readme",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "log-timestamp": "^0.2.1",
+    "serve-static": "^1.13.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

@@ -1,0 +1,34 @@
+Potential project
+Accepted/Hold/Canceled/ReAccepted Project Class:
+    project Name
+    Description (255)
+    
+    Futur implementation (Succes-Hold-Canceled)
+        Name
+        under implementation
+            under implementation
+                under implementation
+                    ....
+        ->(potential good idea)Hold (Name and Description of the implementation)
+        ->(Canceled idea)Canceled (Name and Description of the implementation. and why it was Canceled)
+        ->(choosed idea)Succes (Name and Description of the implementation). and why its was choosed the implementation gona end up in implementation
+    
+    Implementation
+        Futur under implementation
+            Futur under implementation
+                ...
+        under implementation
+            Futur Implementation
+                ...
+        ->Dead Line
+
+
+
+Welcome
+    ->Working on Projects
+    ->Favorite Projects
+    ->Recent Projects 0/10 days
+
+Implementation who suggested them and who gon a implement the implementation
+
+

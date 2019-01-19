@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="Dependencies/Jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="Dependencies/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <script src="Js/sendData.js"></script>
+    <title>Project Manager | Add Project</title>
+</head>
+<body style="background: #f9f9f9">
+        <!-- Header -->
+        <div class='container-fluid indexH'>
+                <div class="row">
+                    <table border='0' width="100%" style="margin: 10px 0px 10px 0px">
+                        <tr>
+                            <td width="17%"><a style="text-decoration:none" href='./'><h1 id="title">Project Manager</h1></a>
+                            </td>
+                            <td width="27%">
+                                <input type="text" class="form-control searchInput" placeholder="Search">
+                            </td>
+                            <td id="td3" width="50%">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+        </div>
+
+        
+
+        <div class="container-fluid newProject">
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col">
+                    <h2 class='h2title'>Create a new Project</h2>
+                    <div class="line"></div>
+                    <div class="bodyAddForm">
+                        <h5>Project Name</h4>
+                        <input type="text" class="form-control" id="pr-title">
+                        <h5>Description <span style="font-size:12px">(optional)</span></h5>
+                        <textarea class="form-control" id="pr-desc"></textarea>
+                    </div>
+                    <div class="line"></div><div class="bodyAddForm">
+                        <h5 id="h5status">Status:</h5> 
+                        <select class="form-control frmSec" id="statusSel">
+                            <option>Accepted</option>
+                            <option>Hold</option>
+                            <option>Potential project</option>
+                        </select> 
+                        <input onclick="send()" type="submit" class="btn btn-success" value="Create project">
+                        <div style="margin: 30px 0px 15px 0px;"></div>
+                        <div id="erroradd"></div>
+                    </div>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </body>
+</html>
